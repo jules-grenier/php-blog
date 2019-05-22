@@ -1,0 +1,57 @@
+::-moz-selection {
+    color: #FFF;
+    background-color: #ed4961;
+}
+
+::selection {
+    color: #FFF;
+    background-color: #ed4961;
+}
+
+body{
+    min-height: 100vh;
+    position: relative;
+}
+
+h1, h2, h3, h4, h5, h6, th{
+    font-family: 'Raleway', sans-serif;
+}
+
+p, a, span, li, td{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-control{
+    border-radius: 0!important;
+}
+
+.form-control:focus{
+	box-shadow: 0 0 0 .2rem rgba(52, 58, 64,.25)!important;
+	border-color: transparent!important;
+}
+
+.btn{
+    border-radius: 0!important;
+}
+
+.btn-red{
+    border: 1px solid #ed4961;
+    color: #ed4961;
+    background-color: transparent;
+}
+
+.btn-red:hover{
+    color: #fff;
+    background-color: #ed4961;
+    transition: all .3s;
+}
+
+.btn-red:focus{
+    color: #fff;
+    background-color: #ed4961;
+    box-shadow: 0 0 0 0.2rem rgba(237, 73, 97,.25);
+}
+
+.text-red{
+    color: #ed4961;
+}

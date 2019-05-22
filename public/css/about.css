@@ -1,0 +1,113 @@
+#about{
+    padding: 3rem auto;
+}
+
+#about #apropos img{
+    width: 180px;
+}
+
+#about .block-content + .block-content{
+    margin-top: 100px;
+}
+
+#about .row h3{
+    border-bottom: 3px solid #ed4961;
+    font-size: 24px;
+    padding-bottom: 5px;
+    margin-bottom: 50px;
+}
+
+#about .row{
+    margin-bottom: 80px;
+}
+
+#about .skills + .skills{
+    margin-top: 60px;
+
+}
+
+#about .skills > h4{
+    color: #ed4961;
+    margin-bottom: 40px;
+}
+
+#about .skill-item + .skill-item{
+    margin-top: 30px;
+}
+
+#about .skill-item > h4{
+    font-size: 16px;
+    color: #222;
+}
+
+#about .skill-item > .progress{
+    height: 20px;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+#about .skill-item .progress-bar{
+    background: #444;
+}
+
+#about .exp + .exp{
+    margin-top: 60px;
+
+}
+
+#about .exp > h4{
+    color: #ed4961;
+    margin-bottom: 40px;
+}
+
+#about .box + .box{
+    margin-top: 50px;
+}
+
+#about .box h4{
+    font-size: 20px;
+    color: #222;
+}
+
+#about .box h6{
+    font-style: italic;
+}
+
+#about .box p{
+    color: #888;
+}
+
+#about .box a{
+    color: #888;
+    line-height: 2;
+    transition: all .3s;
+}
+
+#about .box a:hover{
+    color: #ed4961;
+    text-decoration: none;
+}
+
+#about .carousel-item img{
+    width: 100%;
+}
+
+#about .modal-header{
+    background: #222 !important;
+}
+
+#about .modal-title{
+    color: #F5F5F5 !important;
+}
+
+#about .modal-body{
+    padding: 0 !important;
+}
+
+#about .modal .close{
+    color: #F5F5F5;
+}
+
+#about #myCarousel a{
+    color: #222;
+    font-size: 30px;
+}

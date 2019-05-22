@@ -1,0 +1,135 @@
+.widget{
+	padding: 0!important;
+    margin-bottom: 3rem;
+	background: #FFF;
+	box-shadow: 2px 2px 8px rgba(45, 45, 45, 0.36);
+}
+
+.widget img{
+    width: 100%;
+}
+
+.widget-header{
+	background: #333;
+}
+
+.widget-header h5{
+	color: #FFF;
+}
+
+.widget.about .widget-content{
+	position: relative;
+}
+
+.widget.about .author-img{
+	background: #FFF;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -70px;
+    border-radius: 50%;
+    border: 3px solid #FFF;
+}
+
+.widget.about h4{
+    font-weight: 600;
+}
+
+.widget .social a{
+    text-align: center;
+    background-color: transparent;
+    display: inline-block;
+    font-size: 15px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 100%;
+    transition: all .2s;
+}
+
+.widget .twitter{
+    color: #00aced;
+    border-color: #00aced;
+}
+.widget .twitter:hover{
+    color: #FFF;
+    background-color: #00aced!important;
+    text-decoration: none;
+}
+
+.widget .linkedin{
+    color: #007bb6;
+    border-color: #007bb6;
+}
+.widget .linkedin:hover{
+    color: #FFF;
+    background-color: #007bb6!important;
+    text-decoration: none;
+}
+
+.widget .github{
+    color: #333;
+    border-color: #333;
+}
+.widget .github:hover{
+    color: #FFF;
+    background-color: #333!important;
+    text-decoration: none;
+}
+
+.widget .codepen{
+    color: #333;
+    border-color: #333;
+}
+.widget .codepen:hover{
+    color: #FFF;
+    background-color: #333!important;
+    text-decoration: none;
+}
+
+.widget.about a:hover{
+	text-decoration: none;
+}
+
+.widget .nav-link{
+    padding: .75rem 0;
+    width: 50%;
+    text-align: center;
+    color: #333!important;
+    border: none!important;
+    border-radius: 0!important;
+    transition: all .2s;
+}
+
+.widget .nav-link.active{
+    color: #FFF!important;
+    background-color: #333!important;
+}
+
+.widget .nav-link:hover{
+    color: #FFF!important;
+    background-color: #333!important;
+}
+
+.popular-post a, .recent-post a{
+	display: block;
+	transition: all .2s;
+}
+
+.popular-post a:hover, .recent-post a:hover{
+	text-decoration: none;
+	background: rgba(0, 0, 0, 0.05);
+}
+
+.popular-post a:hover > .popular-post-title, .recent-post a:hover > .recent-post-title{
+    color: #ed4961!important;
+}
+
+.popular-post-img, .recent-post-img{
+	width: 30%;
+}

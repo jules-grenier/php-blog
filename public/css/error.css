@@ -1,0 +1,17 @@
+#errorPage{
+	min-height: 100vh;
+	background-image: url(../img/space.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #F5F5F5;
+}
+
+
+#errorPage .container, #errorPage .row{
+	min-height: 100vh;
+}
+
+#errorPage h1{
+	font-size: 75px;
+}

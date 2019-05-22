@@ -1,0 +1,100 @@
+h1, h2, h3, h4, h5, h6, th, .title{
+    font-family: "Open Sans", serif !important;
+}
+
+p, span, a, td{
+    font-family: "Montserrat", sans-serif !important;
+}
+
+td{
+    vertical-align: middle!important;
+}
+
+img{
+    width: 100%;
+}
+
+.form-control:focus{
+	box-shadow: 0 0 0 .2rem rgba(52, 58, 64,.25)!important;
+	border-color: transparent!important;
+}
+
+
+/* Scrollbar */
+
+    /* width */
+    ::-webkit-scrollbar {
+		width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+		background: #FFF;
+		box-shadow: 0 0 2px 2px rgba(0,0,0,0.1) inset;
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+		background: #6c757d;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #2b3035; 
+    }
+
+.pageContent{
+    min-height: 100%!important;
+}
+
+
+.sidenav{
+    min-height: 100vh!important;
+    position: fixed!important;
+}
+
+.dropdown-menu{
+	margin: 0!important;
+	left: auto!important;
+	right: 0!important;
+}
+
+.dropdown-item:active {
+    background-color: #343a40!important;
+}
+
+.sideNav a:not(.title){
+    border-left: 5px solid transparent;
+    transition: all .2s;
+}
+
+.sideNav a:not(.title):hover{
+    text-decoration: none;
+    border-left-color: #FFF !important;
+    background: rgba(255, 255, 255, .1);
+}
+
+.title:hover{
+    text-decoration: none;
+}
+
+.stats a{
+    padding: 50px 0;
+}
+
+.stats a > svg {
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+.media{
+	background: #FFF;
+	border-left: 3px solid #343a40;
+	background: #FFF;
+}
+
+#addTags .btn{
+    background: rgba(0, 0, 0, .1);
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, .2) inset;
+    margin-bottom: 1px;
+}
